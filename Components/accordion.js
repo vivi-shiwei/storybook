@@ -7,9 +7,12 @@ import {
     AccordionIcon,
     Box
 } from "@chakra-ui/core";
+import { Container } from '../src/Container'
+import { DarkModeSwitch } from '../src/DarkModeSwitch'
 const accordion = () => {
     return (
-        <>
+        <Container>
+            <DarkModeSwitch />
             <Accordion allowToggle>
                 <AccordionItem>
                     <AccordionHeader>
@@ -41,7 +44,7 @@ const accordion = () => {
                     </AccordionPanel>
                 </AccordionItem>
             </Accordion>
-        </>
+        </Container>
     )
 }
 export default accordion
