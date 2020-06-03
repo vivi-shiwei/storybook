@@ -1,5 +1,5 @@
 import React from 'react'
-import { Flex, useColorMode } from '@chakra-ui/core'
+import { Box, useColorMode } from '@chakra-ui/core'
 
 export const Container = (props) => {
     const { colorMode } = useColorMode()
@@ -8,7 +8,7 @@ export const Container = (props) => {
 
     const color = { light: 'black', dark: 'white' }
     return (
-        <Flex
+        <Box
             direction="column"
             alignItems="center"
             justifyContent="flex-start"
