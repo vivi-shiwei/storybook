@@ -101,7 +101,7 @@ const HomePage = () => {
                         <Text opacity="0.7" fontSize="xl" mt="6">
                             Chakra UI is a simple, modular and accessible component library
                             that gives you all the building blocks you need to build your
-                            React applications.
+                            React applications.df
                         </Text>
 
                         <Box mt="4">
