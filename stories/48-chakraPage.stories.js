@@ -94,7 +94,7 @@ const HomePage = () => {
                             Build accessible React apps & websites
                             <Box as="span" color="teal.500">
                                 {" "}
-                                with speed
+                                with speeds
                             </Box>
                         </Heading>
 
