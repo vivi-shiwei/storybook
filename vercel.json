@@ -1,0 +1,13 @@
+{
+    "version": 2,
+    "name": "storybook",
+    "builds": [
+        {
+            "src": "package.json",
+            "use": "@now/stati-build",
+            "config": {
+                "distDir": "build"
+            }
+        }
+    ]
+}
