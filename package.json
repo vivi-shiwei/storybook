@@ -24,6 +24,6 @@
   },
   "scripts": {
     "storybook": "start-storybook",
-    "build": "build-storybook -c .storybook -o build"
+    "build": ".storybook -o build"
   }
 }
