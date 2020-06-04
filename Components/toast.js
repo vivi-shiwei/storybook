@@ -15,7 +15,7 @@ function PositionExample() {
                 })
             }
         >
-            Show Toast
+            Show Toasts
         </Button>
     );
 }
