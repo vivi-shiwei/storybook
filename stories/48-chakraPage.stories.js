@@ -20,7 +20,7 @@ import { LiveProvider, LiveEditor, LiveError, LivePreview } from "react-live";
 import theme from "prism-react-renderer/themes/nightOwl";
 import * as Chakra from "@chakra-ui/core";
 import * as ReactMdIcons from "react-icons/md";
-import NextLink from "next/link";
+// import NextLink from "next/link";
 import React from 'react';
 import App from '../App';
 
@@ -92,24 +92,24 @@ const HomePage = () => {
                     <Box maxW="xl" mx="auto" textAlign="center">
                         <Heading as="h1" size="xl" fontWeight="semibold">
                             Build accessible React apps & websites
-              <Box as="span" color="teal.500">
+                            <Box as="span" color="teal.500">
                                 {" "}
-                with speed
-              </Box>
+                                with speed
+                            </Box>
                         </Heading>
 
                         <Text opacity="0.7" fontSize="xl" mt="6">
                             Chakra UI is a simple, modular and accessible component library
                             that gives you all the building blocks you need to build your
                             React applications.
-            </Text>
+                        </Text>
 
                         <Box mt="4">
-                            <NextLink href="/getting-started" passHref>
+                            {/* <NextLink href="/getting-started" passHref>
                                 <Button size="lg" as="a" variantColor="teal" m={2}>
                                     Get Started
-                </Button>
-                            </NextLink>
+                                </Button>
+                            </NextLink> */}
                             <Button
                                 as="a"
                                 size="lg"
@@ -119,7 +119,7 @@ const HomePage = () => {
                                 leftIcon={props => <DiGithubBadge size="1.5em" {...props} />}
                             >
                                 GitHub
-              </Button>
+                            </Button>
                         </Box>
 
                         <Flex mt="4" display={["flex", "none"]} justify="center">
@@ -140,15 +140,15 @@ const HomePage = () => {
                     <Feature icon={MdAccessibility} title="Accessible">
                         Chakra UI strictly follows WAI-ARIA standards. All components come
                         with proper attributes and keyboard interactions out of the box.
-          </Feature>
+                    </Feature>
                     <Feature icon={MdPalette} title="Themeable">
                         Quickly and easily reference values from your theme throughout your
                         entire application, on any component.
-          </Feature>
+                    </Feature>
                     <Feature icon={MdGrain} title="Composable">
                         Components were built with composition in mind. You can leverage any
                         component to create new things.
-          </Feature>
+                    </Feature>
                 </Grid>
             </Container>
 
@@ -160,9 +160,9 @@ const HomePage = () => {
                         Code components for your React Apps with speed{" "}
                         <Box as="span" color="teal.500">
                             using Chakra
-            </Box>
+                        </Box>
             .
-          </Heading>
+                    </Heading>
                 </Box>
 
                 <Box>
