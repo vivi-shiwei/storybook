@@ -20,7 +20,7 @@ import { LiveProvider, LiveEditor, LiveError, LivePreview } from "react-live";
 import theme from "prism-react-renderer/themes/nightOwl";
 import * as Chakra from "@chakra-ui/core";
 import * as ReactMdIcons from "react-icons/md";
-// import NextLink from "next/link";
+import NextLink from "next/link";
 import React from 'react';
 import App from '../App';
 
