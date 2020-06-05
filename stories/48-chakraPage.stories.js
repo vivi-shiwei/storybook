@@ -105,11 +105,11 @@ const HomePage = () => {
                         </Text>
 
                         <Box mt="4">
-                            {/* <NextLink href="/getting-started" passHref>
+                            <NextLink href="/getting-started" passHref>
                                 <Button size="lg" as="a" variantColor="teal" m={2}>
                                     Get Started
                                 </Button>
-                            </NextLink> */}
+                            </NextLink>
                             <Button
                                 as="a"
                                 size="lg"
