@@ -234,7 +234,7 @@ const HomePage = () => {
 };
 
 export default {
-    title: 'Z'
+    title: 'Home'
 };
 
 export const HomePages = () => { return App(HomePage) }
