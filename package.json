@@ -11,7 +11,7 @@
     "@storybook/addon-links": "^5.3.19",
     "emotion-theming": "^10.0.27",
     "formik": "^2.1.4",
-    "next": "^9.4.4",
+    "next": "^13.0.4",
     "prism-react-renderer": "^1.1.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
@@ -20,7 +20,7 @@
   },
   "devDependencies": {
     "@babel/core": "^7.10.2",
-    "@storybook/react": "^5.3.19",
+    "@storybook/react": "^6.5.13",
     "babel-loader": "^8.1.0"
   },
   "scripts": {
